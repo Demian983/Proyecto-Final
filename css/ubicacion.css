@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section h2 {
+    color: #d17f00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    border: 4px solid #f4b400;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Redes sociales */
+.redes-sociales a {
+    color: #f4b400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+/* Footer elegante */
+footer {
+    background-color: #f4b400;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Estilos responsivos generales */
+@media (max-width: 1024px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platillo, .bebida, .postre {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    header h1, header h2 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    nav .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 15px 5px;
+    }
+}

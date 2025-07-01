@@ -1,0 +1,4 @@
+nombre=Hector
+opinion= Muy buen restaurante 
+imagen=
+likes=0

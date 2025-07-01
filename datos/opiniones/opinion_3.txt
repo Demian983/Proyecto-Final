@@ -1,0 +1,4 @@
+nombre=Max
+opinion=Esau tiro mi plato de comida
+imagen=
+likes=1

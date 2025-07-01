@@ -1,0 +1,4 @@
+nombre=Esau
+opinion=Bolillo tiro mi comida al piso
+imagen=
+likes=2

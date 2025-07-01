@@ -1,0 +1,4 @@
+nombre=Alfredo
+opinion=Opinion con Imagen de muestra
+imagen=../datos/opiniones/1750035869_6ca3f043506b0ef506e9ec490196e30e.jpg
+likes=2

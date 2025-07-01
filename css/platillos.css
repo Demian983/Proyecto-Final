@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    text-align: center;
+    color: #d17f00;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.platillo, .bebida, .postre {
+    background-color: white;
+    border: 1px solid #f4b400;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.platillo:hover, .bebida:hover, .postre:hover {
+    transform: scale(1.03);
+}
+
+.platillo img, .bebida img, .postre img {
+    width: 50%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #f4b400;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Estilos responsivos generales */
+@media (max-width: 1024px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platillo, .bebida, .postre {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    header h1, header h2 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    nav .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 15px 5px;
+    }
+}
+
